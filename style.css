@@ -1,0 +1,236 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+padding:0; 
+margin: 0;
+box-sizing: border-box;
+color: #010619; 
+
+
+}
+
+.container{
+    margin: 0;
+}
+.Top{
+    width: 100%;
+    display: inline-block;
+    background-color:#a4cbe8;
+    border-bottom-right-radius: 100px;
+}
+.Top_navbar{
+    float: left;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.Top_navbar a{
+    text-decoration: none;
+    padding:20px ;
+    color: black;
+    font-size: 18px;
+    
+}
+.Top_navbar a:hover{
+    color: green;
+    transform: scale(1.1);
+
+}
+.login_btn{
+    float: right;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-right: 50px;
+    margin-top: 10px;
+    width: 100px;
+    border: none;
+    background: inherit;
+    color: black;
+    font-size: 18px;
+}
+
+.login_btn:hover{
+    color: green;
+    transform: scale(1.2);
+}
+<!--end_top_header-->
+
+.content{
+    display: flex;
+    width: 100%;
+}
+.text_content{
+    width: 35%;
+    margin-left:10px;
+    text-align: justify;
+    float: left;
+    font-size: 18px;
+    
+}
+.Bg_img1{
+    width:50%;
+    margin: 5vh;
+    float: right;
+}
+.Bg_img1 img{
+    width: 100%;
+}
+.start_button{
+    width: 100px;
+    padding: 6px 10px;
+    border-radius: 5px;
+    color: black;
+    margin-left: 15px;
+    font-size: 15px;
+    
+}
+.start_button:hover{
+    color: green;
+    transform: scale(1.2);
+}
+<!--end_text_content-->
+i{
+    margin-right: 10px;
+    color: #3E78B2;
+    
+}
+.center{
+    margin: 3% 10%;
+    display: flex; 
+    justify-content: space-between;
+    text-align: center;
+}
+.card{
+    width: 30%;
+    border: 1px solid rgb(235, 235, 235);
+    padding: 20px 10px; 
+    border-radius: 10px; 
+    transition: 0.3s; 
+
+}
+.card:hover{
+    background-color: #a4cbe8;
+    color: white;
+    transform: translateY(-15px);
+    transition: 0.3s;
+    
+}
+.card i:hover{
+    color: white;
+}
+.card i{
+    font-size: 50px;
+}
+<!--end_center-->
+.aboutus{
+    margin: 0 10%; 
+    display: flex; 
+    text-align: center;
+}
+.image{
+    width: 40%;
+    float: left;
+}
+.image img{
+    width:100%;
+}
+.text{
+    width: 60%;
+    float: right;
+}
+<!--end_aboutus-->
+.steps{
+    display: flex; 
+    margin: 0 10%; 
+}
+.step{
+    width: 25%;
+    float: left;
+}
+.step img{
+    width: 100%; 
+}
+.ways{
+    padding: 40px 0;
+    border: 2px solid rgb(199, 197, 197); 
+    margin: 20px 30px; 
+    border-radius: 10px; 
+}
+<!--end_way-->
+    
+.footer{
+    display: flex;
+    background-color:rebeccapurple;
+    
+}
+.footer img{
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--responsive-->
+@media screen and(max-width:768px){
+    .container{
+        display: block;
+    }
+    .text_content{
+        width: 85%;
+    }
+    .Bg_img1{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .center{
+        display: block;
+    }
+    .card{
+        width: 100%;
+    }
+    .steps{
+        display: block; 
+    }
+    .step{
+        width: 100%; 
+    }
+    .top{
+        display: block;
+    }
+    .logo{
+        margin: 10px auto; 
+    }
+    .navbar{
+        margin: auto;
+    }
+    .login{
+        margin: 30px auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
